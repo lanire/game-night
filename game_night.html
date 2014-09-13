@@ -1,0 +1,86 @@
+<html>
+<head>
+	<script src="game.js"> </script>
+	
+	<style>
+	  body {
+		font-size: 14px;
+	}
+
+	 .button {
+		font-size: 14px;
+		padding: 8px;
+		border: 1px solid #3757E6;
+		background-color: white;
+		box-shadow: 1px 1px;
+		outline: none;
+		margin: 16px auto;
+		display: block;
+	}
+	
+	.big-button {
+		color: #3757E6;
+	}
+	
+	h1 {
+		text-align: center;
+	}
+	
+	table {
+		border-collapse: collapse;
+		margin: auto;
+	}
+	
+	td {
+		text-align: center;
+			padding: 8px;
+			
+	}
+	th {
+		text-align: left;
+		padding: 8px;
+	}
+	
+	#addplayer, #addgame {
+		text-decoration: underline;
+		color: blue;
+		cursor: pointer;
+	}
+	
+	#modal-bg {
+		position: absolute;
+		left: 0;
+		top: 0;
+		background-color: #fff;
+		opacity: 0.4;
+	}
+
+    #modal-content {
+	    position: absolute;
+	    border: 2px solid #3757E6;
+	    background-color: #fff;
+	    box-shadow: 1px 1px;
+	    padding: 8px;
+	    min-width: 300px;
+	    min-height: 100px;
+    }
+
+    .addGameTable td {
+	  text-align: left;
+    }
+	</style>
+	
+</head>
+	
+<body onload="initialize()">
+<h1> Game Match </h1>
+	
+<div id="screen2">
+<div id="tableForChoosing"></div>
+<button id="generate" class="button big-button">Match People to Games</button>
+<div id="results"></div>
+</div>
+
+
+</body>
+<html>
